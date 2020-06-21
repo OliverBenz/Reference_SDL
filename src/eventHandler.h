@@ -4,6 +4,6 @@
 #include <SDL2/SDL.h>
 
 void eventHandler(SDL_Event *event);
-void keyboardHandler();
+void keyboardHandler(SDL_Scancode sc);
 
 #endif // EVENT_HANDLER_H

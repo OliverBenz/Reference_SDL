@@ -65,4 +65,5 @@ int initSDL(App *app){
 		fprintf(stderr, "Could not create renderer: %s\n", SDL_GetError());
 		return -1;
 	}
+	return 1;
 }
